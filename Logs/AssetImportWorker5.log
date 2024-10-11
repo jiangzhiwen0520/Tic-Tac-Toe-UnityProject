@@ -1,0 +1,800 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.21f1c1 (08fa194de70f) revision 588313'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 32577 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\2021.3.21f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+14308
+Successfully changed project path to: G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
+G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [102996] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 3856098490 [EditorId] 3856098490 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [102996] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 3856098490 [EditorId] 3856098490 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 51.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8017 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011890 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 292 ms
+Refreshing native plugins compatible for Editor in 50.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (354ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe-UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe-UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (117.3 KB). Loaded Objects now: 3596.
+Memory consumption went from 125.7 MB to 125.5 MB.
+Total: 2.411700 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.037800 ms  DeleteObjects: 0.125500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1439472.492724 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Graveyard_Urn1.fbx
+  artifactKey: Guid(e9633ad97d9dc384aa221361278a5218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Graveyard_Urn1.fbx using Guid(e9633ad97d9dc384aa221361278a5218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ada3107344d32a05d2b4c70bb363cab0') in 0.109855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/props.tif
+  artifactKey: Guid(8b67766c115cdd94e9d1808394c15da5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/props.tif using Guid(8b67766c115cdd94e9d1808394c15da5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c497d2a030433587deb3a9fddb45e0b9') in 0.047131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/trees_02.tif
+  artifactKey: Guid(63685679e4645ed448fbe8faf123da8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/trees_02.tif using Guid(63685679e4645ed448fbe8faf123da8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5bbec00d7c8a05fcb8ce0f3cd1ed56e') in 0.028570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Plants1.tif
+  artifactKey: Guid(7ab680095416fb840bd74016d6ad90ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Plants1.tif using Guid(7ab680095416fb840bd74016d6ad90ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef17e79e60094d4a94a3720ce7b373d6') in 0.010085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Bridge2.tif
+  artifactKey: Guid(9147aaedbac7178419222cdd325f0353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Bridge2.tif using Guid(9147aaedbac7178419222cdd325f0353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2881a49aad24a1c0a9329527060309ba') in 0.010012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Mushroom3B.fbx
+  artifactKey: Guid(dc1055d7498fac04581af3f610890d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Mushroom3B.fbx using Guid(dc1055d7498fac04581af3f610890d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4a9d37bc8e0f238bc7dda2fecba514f') in 0.008874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Bridge1_n.tif
+  artifactKey: Guid(6c1a4f61b68c96d41939683dca4706c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Bridge1_n.tif using Guid(6c1a4f61b68c96d41939683dca4706c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a56a848a3f60366e436d542dc101cb21') in 0.011425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tile_Water1B.fbx
+  artifactKey: Guid(5d2a78f5516968044b20399f4ca925c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tile_Water1B.fbx using Guid(5d2a78f5516968044b20399f4ca925c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4464f4104910ea13377c930b285015ff') in 0.008892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Graveyard_08.fbx
+  artifactKey: Guid(633d41df1ff92de4aaeff8c803bda4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Graveyard_08.fbx using Guid(633d41df1ff92de4aaeff8c803bda4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b54bee5795a9e065a50bd68b386bceb5') in 0.009917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Rock_07.fbx
+  artifactKey: Guid(1733033260b325942ab0bfe8ef3221a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Rock_07.fbx using Guid(1733033260b325942ab0bfe8ef3221a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc41f1ff53b03422a07c4876fbb0405e') in 0.009711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_1_A.prefab
+  artifactKey: Guid(679444084a776cb41a6a642071dd3daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_1_A.prefab using Guid(679444084a776cb41a6a642071dd3daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e58fa7d56f4f9a1a0e8ed6ba70ddf012') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Tile_UP2_n.tif
+  artifactKey: Guid(81ac203b392459f4ca39ba275d59e336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Tile_UP2_n.tif using Guid(81ac203b392459f4ca39ba275d59e336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1ae9456b2d9a07bf4edea2bb5e29769') in 0.008514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Magic_Pillar5.fbx
+  artifactKey: Guid(a35629114a81a44409cb719dae21f106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Magic_Pillar5.fbx using Guid(a35629114a81a44409cb719dae21f106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a43cb474e816a8f04d33b0f643be02de') in 0.011582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tile_Water1A.fbx
+  artifactKey: Guid(3d6e5334563a668489b95fd1696e536e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tile_Water1A.fbx using Guid(3d6e5334563a668489b95fd1696e536e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb02f50dba8b9a88a2206d5d89f4c3ff') in 0.009415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '479b81e7e36b89e6f7a578a280aa9a18') in 0.005545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Glow3.mat
+  artifactKey: Guid(0bff21fdc66d10f4ca2a7d0a362b179c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Glow3.mat using Guid(0bff21fdc66d10f4ca2a7d0a362b179c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bbe429630ca55ce00fccab3c0d25fbb') in 0.009895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade1.fbx
+  artifactKey: Guid(e896bb40592011e4b9625c1870f771e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Camp1_Barricade1.fbx using Guid(e896bb40592011e4b9625c1870f771e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e2d7534f76c9c058e2e5a434652cb40') in 0.009121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Demo/Animations/Rotate_anim.anim
+  artifactKey: Guid(b308b1c8d56be3e4c9f872725c523a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Demo/Animations/Rotate_anim.anim using Guid(b308b1c8d56be3e4c9f872725c523a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e07daa8a05f7b21180d3be8bf81c3025') in 0.008296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tile_1_G.fbx
+  artifactKey: Guid(0eca66ad811caf54c811454dd0b50389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tile_1_G.fbx using Guid(0eca66ad811caf54c811454dd0b50389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbfd150a30cc610add7ffa38dfaa0984') in 0.009002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Sign2.fbx
+  artifactKey: Guid(e8769ed1ea381fc40849f36228b67b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Sign2.fbx using Guid(e8769ed1ea381fc40849f36228b67b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf80e1c2650011d00fb72a55726824f8') in 0.010409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_03.fbx
+  artifactKey: Guid(a45e49e81dd21174f829956c57bc8b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_03.fbx using Guid(a45e49e81dd21174f829956c57bc8b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04033aa14ccc7e9530ecedea97a0269f') in 0.009712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Particles/Textures/Glow3.tif
+  artifactKey: Guid(e2c6c3c37cedca547afb1635eb9b63b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Particles/Textures/Glow3.tif using Guid(e2c6c3c37cedca547afb1635eb9b63b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0d32ca965d0c3392d8fd27136a68307') in 0.008105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Wood_el_04.fbx
+  artifactKey: Guid(af4f681703771c84fabe5f7cb2b9dee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Wood_el_04.fbx using Guid(af4f681703771c84fabe5f7cb2b9dee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fada8813eb2b95fdf9cff6f71c7631ce') in 0.009941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Mine1.tif
+  artifactKey: Guid(f8dabf5bd4459d84398c6312fbb897ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Mine1.tif using Guid(f8dabf5bd4459d84398c6312fbb897ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dcd58d0ffc1f4a787821d0675b2800c') in 0.009449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_1.fbx
+  artifactKey: Guid(12040691536f72c42b1dde7534e3b2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_1.fbx using Guid(12040691536f72c42b1dde7534e3b2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '749c2bfd17083964c8efe962d64a2663') in 0.009172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree4_05.fbx
+  artifactKey: Guid(be901c596025ca247be084e5ed195266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree4_05.fbx using Guid(be901c596025ca247be084e5ed195266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50b52f9603c91feed133dd4fdb07e1d8') in 0.010533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_04.fbx
+  artifactKey: Guid(f08c1741f4060be419b83e0d3d6c240b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_04.fbx using Guid(f08c1741f4060be419b83e0d3d6c240b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90cd5f9a5c8220c17bc20114178c081f') in 0.010157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_02.fbx
+  artifactKey: Guid(55716d8f64b655b48b47583bcedfc001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_02.fbx using Guid(55716d8f64b655b48b47583bcedfc001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e65ede9ffbdd43a3ea4238588edf8020') in 0.009809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_6.fbx
+  artifactKey: Guid(e9556604b070e2249bc1b92551403306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_6.fbx using Guid(e9556604b070e2249bc1b92551403306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0635315a8a3f7624248290a719235b2') in 0.009978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn.tif
+  artifactKey: Guid(caf2c7c19f5e2f5438e6652d5ffbfa6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn.tif using Guid(caf2c7c19f5e2f5438e6652d5ffbfa6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d0db1d8f5b9c2cc87ddaeadec5b3d1b') in 0.012006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_3_F.prefab
+  artifactKey: Guid(243af3d5241a45145ab106ac6189761f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_3_F.prefab using Guid(243af3d5241a45145ab106ac6189761f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef0b3ecb6813aad2eeb7664f07772086') in 0.006825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Stairs_Debris3.fbx
+  artifactKey: Guid(08db598a26f03224898345e243ab22a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Stairs_Debris3.fbx using Guid(08db598a26f03224898345e243ab22a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e2c4c91dbe71a28718a596c64383e68') in 0.008748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Lamp_glow.tif
+  artifactKey: Guid(77982daf9fbb03c4f99aff0d0d47bc6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Lamp_glow.tif using Guid(77982daf9fbb03c4f99aff0d0d47bc6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '263d1e5e77180f509455042094cb5873') in 0.008388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group8.prefab
+  artifactKey: Guid(571cb4769a0758a448df6d9ca95d74d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Tiles_Groups/Tile_Group8.prefab using Guid(571cb4769a0758a448df6d9ca95d74d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4644a2d03352975896978e834b82240') in 0.008370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tile_Ramp1A.fbx
+  artifactKey: Guid(8e3c79843c962264eb6fd09974962025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tile_Ramp1A.fbx using Guid(8e3c79843c962264eb6fd09974962025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b56806715652ecd6dd45f525b4376a9') in 0.009844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0ee29f443360f1f44cc9c6fcab858f7') in 0.007080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_Mob2a.mat
+  artifactKey: Guid(fbd95578d148cfb47b3e31383fcd774f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_Mob2a.mat using Guid(fbd95578d148cfb47b3e31383fcd774f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb81a39e01f324d913b76bc7acc9233') in 0.012021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '414c905565b7302bc76322c32732b0cf') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63231f2521a234039039d7682089c171') in 0.004006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc0183a841a957cebeb9ee1a839b88d0') in 0.011617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Fence_01.mat
+  artifactKey: Guid(1857ca53d8dd3e746b57d65ab2cb16fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Fence_01.mat using Guid(1857ca53d8dd3e746b57d65ab2cb16fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f04d9c92806cb757f5a8cd3d7da673e') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_Mob4a.mat
+  artifactKey: Guid(92c1ca093e430e64890b891db92a4fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_Mob4a.mat using Guid(92c1ca093e430e64890b891db92a4fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba5eb02700b1f5af30cc4989d7d71921') in 0.007405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Water/Textures/Waterfall2_n.tif
+  artifactKey: Guid(3e73256bf73d13f46970d253bf32ce89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Water/Textures/Waterfall2_n.tif using Guid(3e73256bf73d13f46970d253bf32ce89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '492952f31cd9b7bba560928ecfe8e4d0') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67cc885ac3e826681009d0b9a6bbd010') in 0.004436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b3ca82b749595f91453e244cadfec78') in 0.003348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65592b655c528c7f3b0f7d4316e2a9a4') in 0.003500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/camp_02.mat
+  artifactKey: Guid(78c12a12d61f82b4f8258a2297d23172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/camp_02.mat using Guid(78c12a12d61f82b4f8258a2297d23172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6396a2cca482fef4267e5e1ecb6de11a') in 0.007286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85fac0e4da8aba75050a82aec394bb48') in 0.003530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+  artifactKey: Guid(efe0bf4ac872451e91612d1ae593f480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt using Guid(efe0bf4ac872451e91612d1ae593f480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d97b0772fc6e44a6960c8f74fb80af5') in 0.003046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b93ca828b328900a4212d7cb8b3ce686') in 0.003869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c83026d72a87a4bba9b721643202165a') in 0.029884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_vil_mob01.mat
+  artifactKey: Guid(0424cff809e22f946a841467676b8261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Tile_vil_mob01.mat using Guid(0424cff809e22f946a841467676b8261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a114277e3bc227b5315a8bdd1238ba47') in 0.004470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Trees_02.mat
+  artifactKey: Guid(b21ea0f3bdcd52946807ce3b06f987f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Trees_02.mat using Guid(b21ea0f3bdcd52946807ce3b06f987f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce7fdf38caace5c70f3969d7521e046c') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd1f27a4bd7a5d50a3064b0dbe6e9900') in 0.002959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Water/Textures/Water.tif
+  artifactKey: Guid(c8c314ac9e49e2e47bb06ac3634002a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Water/Textures/Water.tif using Guid(c8c314ac9e49e2e47bb06ac3634002a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f5c1b3e678f32f31e7346e1a44371c5') in 0.009099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2dc243962646fb2a76ac59636e0c773') in 0.045557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca50a3bd9de11e000587254a825dae0e') in 0.003192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a1de7514ac3c2aeadb2414d60eb2360') in 0.003119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4a20ccdb021a62656ce411d98d31ff0') in 0.011212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Shaders/Materials/Fog2.mat
+  artifactKey: Guid(61139809002160343b1acf80042c0e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Shaders/Materials/Fog2.mat using Guid(61139809002160343b1acf80042c0e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3b0b5fa4021f1291058dabc43246f0b') in 0.004045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7abe7fe763dfe41d03cfcfffe2d8d66') in 0.008870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58d55dd02214037e24e285d269f9a959') in 0.004167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3fdb01753e76539e681c896004ffa1') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8115a970464f9ca430c0b81ac4f6f6d9') in 0.003262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+  artifactKey: Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity using Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11b3d29926d65cb03fbd4b9b53349164') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3fea11bff22038d1deabbd3ec387b97') in 0.008658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d59d996f5675c1ce79ff0ceef2dcdcc') in 0.018241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Bridge2.mat
+  artifactKey: Guid(1d7233f51c44c954397fb6cf7e05b647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Bridge2.mat using Guid(1d7233f51c44c954397fb6cf7e05b647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96020810c37837c948bb5ec05c9fdfe6') in 0.005047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/TileMob_Ramp1A.fbx
+  artifactKey: Guid(7a3efc112da18874ca9a8e34dd3adf7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/TileMob_Ramp1A.fbx using Guid(7a3efc112da18874ca9a8e34dd3adf7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60e3f80de42b063b2b6840d995808372') in 0.010642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Trees_01b.mat
+  artifactKey: Guid(32d7cf7ff71ae0046bfa913cd3f7ec25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Models/Materials/Trees_01b.mat using Guid(32d7cf7ff71ae0046bfa913cd3f7ec25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9498baff0ff2c963b5cd9673c9081f5f') in 0.006329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_2_F.prefab
+  artifactKey: Guid(0155626f1a617394d82f8e640c1bd77a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Mobile Assets/Tiles/TileMob_2_F.prefab using Guid(0155626f1a617394d82f8e640c1bd77a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076ab81a7eba8474dba19b98e9934879') in 0.005210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Graveyard_15.fbx
+  artifactKey: Guid(d4144aced20d6514b8723ae93466e9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Graveyard_15.fbx using Guid(d4144aced20d6514b8723ae93466e9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '155649e32456a65f820377cddebac3f6') in 0.010397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Dungeon_Passage1.fbx
+  artifactKey: Guid(6a15b9241cfb0224db6f06f224724274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Dungeon_Passage1.fbx using Guid(6a15b9241cfb0224db6f06f224724274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '905674c03bdca2ae4dca39fecad678fb') in 0.010315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Water/Textures/Waterfall1.tif
+  artifactKey: Guid(bb7679e4a90251745b0d74243ddae4b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Water/Textures/Waterfall1.tif using Guid(bb7679e4a90251745b0d74243ddae4b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62d3b4d5f622dd8c7d207b66f7df3bed') in 0.008153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Chest2A.fbx
+  artifactKey: Guid(cf47b032e868d9c449eebf0c4318a854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Chest2A.fbx using Guid(cf47b032e868d9c449eebf0c4318a854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d26c5db0cfe36c3f851dcec9b795793') in 0.009206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94188de233cf758d89857dfa5a20232a') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064136 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Lamp.mat
+  artifactKey: Guid(0e6693e48c33fff4d93b791ed3f2ba87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Lamp.mat using Guid(0e6693e48c33fff4d93b791ed3f2ba87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec67fb4e9814bc091c278c9197bf7f7e') in 0.007436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_04.mat
+  artifactKey: Guid(ed2a80d95f9a04e4aa135e5c5376d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_04.mat using Guid(ed2a80d95f9a04e4aa135e5c5376d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9db0271fd6042d80b0ab7316ec13bea7') in 0.012299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b.mat
+  artifactKey: Guid(b3bcb14ac5b9a474d958e0f2b6b526eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Trees_01b.mat using Guid(b3bcb14ac5b9a474d958e0f2b6b526eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf1fce670c9bb9818df602d952d36ce') in 0.005672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile1_Brick.mat
+  artifactKey: Guid(dba0a3a660c05bb4e82c6f6449efd789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile1_Brick.mat using Guid(dba0a3a660c05bb4e82c6f6449efd789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '537c66e722f686d798b42a579c73c60f') in 0.007222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Plants1.mat
+  artifactKey: Guid(3af6118b3673f044e9ae17884f21e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Plants1.mat using Guid(3af6118b3673f044e9ae17884f21e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb0fdf6de3d8e1c3fdfe583bddeb23b1') in 0.008375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile1.mat
+  artifactKey: Guid(c88dc8a461c2ce64facd636febb36502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile1.mat using Guid(c88dc8a461c2ce64facd636febb36502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f57cc3c5cee8cb0bfc4cb318d6d153ef') in 0.006160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '285af5e80a06ad508b61f16325174f05') in 0.006325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Tile_clear.mat
+  artifactKey: Guid(31f98800e86b0b147a20ea7da768e575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Tile_clear.mat using Guid(31f98800e86b0b147a20ea7da768e575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a106cf481ac0803484c743cdb7dbc2d8') in 0.005672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars_red.mat
+  artifactKey: Guid(5916c8d578551a24e8386e725be477e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Magic_Pillars_red.mat using Guid(5916c8d578551a24e8386e725be477e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61d874974afc2fdbbd693a5bb456c6ae') in 0.008294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn.mat
+  artifactKey: Guid(89fe42567d9d40746a45f29535ee65fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_03_autumn.mat using Guid(89fe42567d9d40746a45f29535ee65fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48d659d67d1f84720a8830af5d593556') in 0.007222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dad9463f871d4bec02e0c02ec252da9b') in 0.004687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/trees_04_alpha.mat
+  artifactKey: Guid(a7f6f4f0f591b2f4eb4b64b2c1abed62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/trees_04_alpha.mat using Guid(a7f6f4f0f591b2f4eb4b64b2c1abed62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45738a7a86d83636d0a92c8b35c91d5b') in 0.020408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Materials/Water.mat
+  artifactKey: Guid(dcda72abd7573a54fb4f9f41ebd352a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Isometric Pack 3d/Props/Models/Materials/Water.mat using Guid(dcda72abd7573a54fb4f9f41ebd352a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83f0c839fb094a2faecd099d7072f719') in 0.004832 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

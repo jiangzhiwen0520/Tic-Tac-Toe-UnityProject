@@ -10,6 +10,12 @@ scopes = {
 	"last_search.DD5CDD96" = "ref:Assets/Scenes/MainScene.unity"
 	"OpenInspectorPreview.DD5CDD96" = "0"
 	"currentGroup.DD5CDD96" = "all"
+	"last_search.71A69CD8" = ""
+	"OpenInspectorPreview.71A69CD8" = "0"
+	"currentGroup.71A69CD8" = "all"
+	"last_search.60D47293" = ""
+	"OpenInspectorPreview.60D47293" = "0"
+	"currentGroup.60D47293" = "find"
 }
 providers = {
 	adb = {

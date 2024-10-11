@@ -11,13 +11,13 @@ D:\Unity\Editor\2021.3.21f1c1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe
+G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-12909
-Successfully changed project path to: G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe
-G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe
+14308
+Successfully changed project path to: G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
+G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [62424] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 1051576966 [EditorId] 1051576966 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [99648] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 3483255200 [EditorId] 3483255200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [62424] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 1051576966 [EditorId] 1051576966 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [99648] Host "[IP] 10.85.224.24 [Port] 0 [Flags] 2 [Guid] 3483255200 [EditorId] 3483255200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E3T4QM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 49.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe/Assets
+[Subsystems] Discovering subsystems at path G:/Zvan/GameProject/UnityProject/Tic-Tac-Toe-UnityProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,98 +68,98 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010049 seconds.
+Registered in 0.013208 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 293 ms
-Refreshing native plugins compatible for Editor in 47.45 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 278 ms
+Refreshing native plugins compatible for Editor in 48.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
+- Completed reload, in  0.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (474ms)
+			SetupLoadedEditorAssemblies (464ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (345ms)
+				InitializePlatformSupportModulesInManaged (334ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
+				RefreshPlugins (49ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (51ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005240 seconds.
+Registered in 0.005427 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe-UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe-UnityProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.817 seconds
+- Completed reload, in  0.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (818ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (117.4 KB). Loaded Objects now: 3598.
-Memory consumption went from 125.7 MB to 125.6 MB.
-Total: 3.429900 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.176200 ms MarkObjects: 2.859400 ms  DeleteObjects: 0.163200 ms)
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (117.3 KB). Loaded Objects now: 3596.
+Memory consumption went from 125.7 MB to 125.5 MB.
+Total: 2.536700 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.961300 ms  DeleteObjects: 0.118100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,60 +172,192 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005508 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Zvan\GameProject\UnityProject\Tic-Tac-Toe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
-Domain Reload Profiling:
-	ReloadAssembly (805ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (308ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (85.2 KB). Loaded Objects now: 3599.
-Memory consumption went from 122.3 MB to 122.3 MB.
-Total: 2.181700 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.830800 ms  DeleteObjects: 0.097600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1439109.369515 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Ground_leafs_1.fbx
+  artifactKey: Guid(ee513ffffaa103a40980919c01435999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Ground_leafs_1.fbx using Guid(ee513ffffaa103a40980919c01435999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f8d48c28df3d4a67f32d8ed601a9e') in 0.127132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Plants_01A.fbx
+  artifactKey: Guid(1fab571f6d3d34340b8306427999cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Plants_01A.fbx using Guid(1fab571f6d3d34340b8306427999cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dedb032f60769258511ba1d20176e1') in 0.026499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_6.fbx
+  artifactKey: Guid(e9556604b070e2249bc1b92551403306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_6.fbx using Guid(e9556604b070e2249bc1b92551403306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e636cfc721d2a6fcbd3ce40a4a999335') in 0.016898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Plants1.tif
+  artifactKey: Guid(7ab680095416fb840bd74016d6ad90ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Plants1.tif using Guid(7ab680095416fb840bd74016d6ad90ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4070151c282a46301d771f964279c045') in 0.025375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Trees_01_n.png
+  artifactKey: Guid(ca86d4aa49f032b4f8202e0b6d0e252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Trees_01_n.png using Guid(ca86d4aa49f032b4f8202e0b6d0e252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c22cface59b8d9c14e5ddbaa79a6cde') in 0.009544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/mushrooms.tif.tif
+  artifactKey: Guid(190cd24f3a8c4224abecf8f1b8147ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/mushrooms.tif.tif using Guid(190cd24f3a8c4224abecf8f1b8147ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db809a3ccc68c25b888e477e8579e284') in 0.007233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Plants_03B.fbx
+  artifactKey: Guid(d9424c1b32926f04f9bcc523318d3c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Plants_03B.fbx using Guid(d9424c1b32926f04f9bcc523318d3c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b655f1508d96fb45d568c8cc4d805432') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_3.fbx
+  artifactKey: Guid(9f5cea8ef8060ed4c92c8b20cd2be11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_3.fbx using Guid(9f5cea8ef8060ed4c92c8b20cd2be11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7916a88c29fb1874830f2a05aa525525') in 0.011363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Plants_02A.fbx
+  artifactKey: Guid(40d53831e112d41498a92863fd6498ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Plants_02A.fbx using Guid(40d53831e112d41498a92863fd6498ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e785672e8b79764da563dcf43aca130') in 0.013324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Trees_01b.tif
+  artifactKey: Guid(bee8943df89438c44a56e95d2b8627b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Trees_01b.tif using Guid(bee8943df89438c44a56e95d2b8627b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26553cee1d0ad2b728fbe0c7f62e59a3') in 0.008658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Mushroom2A.fbx
+  artifactKey: Guid(8914c8f11051a9c49ad5ae6a159ba5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Mushroom2A.fbx using Guid(8914c8f11051a9c49ad5ae6a159ba5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ed63973272c95d0d351ccfa6b59dcd') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Mushroom2B.fbx
+  artifactKey: Guid(b096c2f8282a1a44282a75e2ffa69b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Mushroom2B.fbx using Guid(b096c2f8282a1a44282a75e2ffa69b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67fd24a8615c627fa95d3a42930a34') in 0.011122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_05.fbx
+  artifactKey: Guid(d0bf7e8530cf184498758c2f268bb82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_05.fbx using Guid(d0bf7e8530cf184498758c2f268bb82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18520ee3098eae0d9e0e903d9191fa3') in 0.011614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Ground_leafs_2.fbx
+  artifactKey: Guid(8ead294df2f309f49807c8bec44406d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Ground_leafs_2.fbx using Guid(8ead294df2f309f49807c8bec44406d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fef5a1364c35c71fc01a1def99efbca') in 0.010256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Trees_01.tif
+  artifactKey: Guid(12afd3e6502424d4e821742dced81dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Trees_01.tif using Guid(12afd3e6502424d4e821742dced81dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd044f6e804612e1ba31313844ec8de') in 0.007120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Mushroom1B.fbx
+  artifactKey: Guid(574068b3224eafb46b5d434a0a49fa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Mushroom1B.fbx using Guid(574068b3224eafb46b5d434a0a49fa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5812d218d445d1f050aea38bbea10a1a') in 0.011762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_1.fbx
+  artifactKey: Guid(12040691536f72c42b1dde7534e3b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_1.fbx using Guid(12040691536f72c42b1dde7534e3b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eef417a65bfe04424b5a0745f33cd07') in 0.016274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_02.fbx
+  artifactKey: Guid(55716d8f64b655b48b47583bcedfc001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_02.fbx using Guid(55716d8f64b655b48b47583bcedfc001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedebf98ec6c1eef076cccede4c23c92') in 0.011204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Plants_05.fbx
+  artifactKey: Guid(8334cc7a6905baa41a868ee96354da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Plants_05.fbx using Guid(8334cc7a6905baa41a868ee96354da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d00682da4137fef059efe0108ebda03') in 0.011522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree1_1.fbx
+  artifactKey: Guid(a552ed9597b82a9468d112046f0482be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree1_1.fbx using Guid(a552ed9597b82a9468d112046f0482be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5466a6f8daaa7c476aeca4e4e7d972af') in 0.012177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree1_4.fbx
+  artifactKey: Guid(b363224dc5b9cb14791ca826626eb08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree1_4.fbx using Guid(b363224dc5b9cb14791ca826626eb08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46873a2b8921865f3d04a488825caf') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_5.fbx
+  artifactKey: Guid(6e44305db7521d845a16f75e1f14acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_5.fbx using Guid(6e44305db7521d845a16f75e1f14acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051365a4215d4dd872848926fe4f98db') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Mushroom4A.fbx
+  artifactKey: Guid(97cd29588cd64684391d76bf881e5cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Mushroom4A.fbx using Guid(97cd29588cd64684391d76bf881e5cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bbf145b64ce6b0a05e9c53aa245184') in 0.009418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree3_03.fbx
+  artifactKey: Guid(a45e49e81dd21174f829956c57bc8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree3_03.fbx using Guid(a45e49e81dd21174f829956c57bc8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72efb1b5134018c93b0375236a3bbc8c') in 0.011092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Plants_02C.fbx
+  artifactKey: Guid(d7d1fb0ac9301334e9326698aa4691e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Plants_02C.fbx using Guid(d7d1fb0ac9301334e9326698aa4691e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3187ee79a9ba2ebaa3a784c9b35dbf78') in 0.012018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn_n.png
+  artifactKey: Guid(0680868b42682e14f9c5d1b0f2a8f959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn_n.png using Guid(0680868b42682e14f9c5d1b0f2a8f959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a918bd0b94c49c4aa358952ccfb8e3f') in 0.009956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn.tif
+  artifactKey: Guid(caf2c7c19f5e2f5438e6652d5ffbfa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/trees_03_autumn.tif using Guid(caf2c7c19f5e2f5438e6652d5ffbfa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55d2c03f37058768af184b35c59563e') in 0.007226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree1_5.fbx
+  artifactKey: Guid(3e549fc1ecaa7934585a13a84e7c883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree1_5.fbx using Guid(3e549fc1ecaa7934585a13a84e7c883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c243abced260632c414aa0747fafe8') in 0.010151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Pack 3d/Props/Textures/Stones_01_n.tif
+  artifactKey: Guid(7be057c806233124a9c0d1018ee5fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Textures/Stones_01_n.tif using Guid(7be057c806233124a9c0d1018ee5fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fac1c64becba8d2682852efb1afa8a') in 0.007501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tile_1_A.fbx
+  artifactKey: Guid(6b87acad5e684b94fab7d81976586cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tile_1_A.fbx using Guid(6b87acad5e684b94fab7d81976586cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b50f5b5ef23912578ce55e57436db5') in 0.010298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Pack 3d/Props/Models/Tree2_7.fbx
+  artifactKey: Guid(f8ffcb174eb98f8408172b2ac375145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Pack 3d/Props/Models/Tree2_7.fbx using Guid(f8ffcb174eb98f8408172b2ac375145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015759670e5d20ec3b6ebf4b26e0e6c') in 0.010835 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
